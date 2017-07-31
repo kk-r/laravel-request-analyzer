@@ -46,11 +46,11 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "dev"
+            "dev": "development"
         }
     },
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "dev"
 }

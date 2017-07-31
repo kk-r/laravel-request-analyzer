@@ -1,6 +1,6 @@
 <?php
 
-namespace krishna\laravelRequestAnalyze\Providers;
+namespace kkr\laravelRequestAnalyze\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

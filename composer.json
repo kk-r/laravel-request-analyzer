@@ -46,7 +46,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "dev"
+            "dev": "development"
         }
     },
     "config": {

@@ -1,10 +1,10 @@
 <?php
 
-namespace krishna\laravelRequestAnalyze\Middleware;
+namespace kkr\laravelRequestAnalyze\Middleware;
 
 use Closure;
-use krishna\laravelRequestAnalyze\Analyzer;
-use krishna\laravelRequestAnalyze\Jobs\RequestAnalysis;
+use kkr\laravelRequestAnalyze\Analyzer;
+use kkr\laravelRequestAnalyze\Jobs\RequestAnalysis;
 
 class RequestAnalyze
 {

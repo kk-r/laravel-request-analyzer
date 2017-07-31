@@ -1,6 +1,6 @@
 <?php
 
-namespace krishna\laravelRequestAnalyze;
+namespace kkr\laravelRequestAnalyze;
 
 use Illuminate\Support\Facades\DB;
 

@@ -1,7 +1,7 @@
 {
     "name": "kk-r/laravel-request-analyzer",
     "type": "library",
-    "description": "Laravel package to log db queries at run time",
+    "description": "Laravel package to analyze request from middleware",
     "keywords": [
         "krishna126",
         "laravel-request-analyzer"
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "krishna\\laravelRequestAnalyze\\": "src/"
+            "kkr\\laravelRequestAnalyze\\": "src/"
         },
         "files": [
           "src/helpers.php"
@@ -36,7 +36,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "krishna\\laravelRequestAnalyze\\": "tests"
+            "kkr\\laravelRequestAnalyze\\": "tests"
         }
     },
     "scripts": {

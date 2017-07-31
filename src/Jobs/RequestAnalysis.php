@@ -1,9 +1,9 @@
 <?php
 
-namespace krishna\laravelRequestAnalyze\Jobs;
+namespace kkr\laravelRequestAnalyze\Jobs;
 
 use Illuminate\Contracts\Queue\ShouldQueue;
-use krishna\laravelRequestAnalyze\Analyzer;
+use kkr\laravelRequestAnalyze\Analyzer;
 
 class RequestAnalysis implements ShouldQueue
 {

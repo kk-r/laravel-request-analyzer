@@ -1,0 +1,4 @@
+ii  php5-cli                                                    5.5.9+dfsg-1ubuntu4.21                              amd64        command-line interpreter for the php5 scripting language
+ii  php5-common                                                 5.5.9+dfsg-1ubuntu4.21                              amd64        Common files for packages built from the php5 source
+ii  php5-json                                                   1.3.2-2build1                                       amd64        JSON module for php5
+ii  php5-readline                                               5.5.9+dfsg-1ubuntu4.21                              amd64        Readline module for php5

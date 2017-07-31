@@ -1,0 +1,56 @@
+{
+    "name": "kk-r/laravel-request-analyzer",
+    "type": "library",
+    "description": "Laravel package to log db queries at run time",
+    "keywords": [
+        "krishna126",
+        "laravel-request-analyzer"
+    ],
+    "homepage": "https://github.com/kk-r/laravel-request-analyzer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "krishna",
+            "email": "krishwebz@gmail.com",
+            "homepage": "http://rkrishnakumar.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "~5.6|~7.0",
+        "illuminate/contracts": "^5.4",
+        "illuminate/support": "^5.4",
+        "illuminate/log": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "~4.0||~5.0||^6.2",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "krishna\\laravelRequestAnalyze\\": "src/"
+        },
+        "files": [
+          "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "krishna\\laravelRequestAnalyze\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "beta"
+}
